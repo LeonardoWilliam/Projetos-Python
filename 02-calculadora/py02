@@ -1,0 +1,17 @@
+print("==========Minha Calculadora em Python==========")
+#A Função print mostra o que está escrito dentro dela
+
+num1=float(input("Digite um número? "))
+# O operador primitivo float transforma o valor em um número decimal
+# A função input faz com que o usuário possa digital algo.
+num2=float(input("Digite outro número? "))
+#num1 e num2 são variaveis
+s = num1 + num2
+sub= num1 - num2
+mult= num1 * num2
+d = num1 / num2
+
+print("A soma entre {} e {} e exatamente {}!".format(num1, num2, s))
+print("A subtração entre {} e {} e exatamente {}!".format(num1, num2, sub))
+print("A Multiplicação entre {} e {} exatamente {}!".format(num1, num2, mult))
+print("A Divisão entre {} e {} será {}!".format(num1, num2, d))
